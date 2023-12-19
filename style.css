@@ -1,0 +1,86 @@
+@font-face {
+    font-family: insta;
+    src: url(Font/Lobster-Regular.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    margin-top: 10%;
+    margin-left: 40%;
+    border: 1px solid gray;
+    border-radius: 2%;
+    width: 280px;
+    height: 350px;
+    text-align: center;
+    
+}
+#head{
+    margin: 20%;
+    font-family: insta;    
+    color: rgb(61, 61, 61);
+    font-size: 40px;
+}
+
+input{
+    padding: 2px;
+    margin-top: 20px;
+    width: 80%;
+    height: 8%;
+    border: 1px solid grey;
+    border-radius: 2px;
+    
+}
+#button{
+   background-color: rgb(147, 147, 252); 
+   color: white;
+   padding: 5px;
+   margin-top: 20px;
+   margin-left: 10%;
+   width: 80%;
+   height: 8%;
+   border-radius: 10px;
+}
+
+#facebook{
+    text-align: center;
+    margin: 3px;
+    color: blueviolet;
+}
+#forget{
+    margin: 26px;
+    text-align: center;
+   
+}
+
+.small{
+    margin-top: 10px;
+    padding: 15px;
+    height: 50px;
+}
+
+#sign{
+    color: rgb(147, 147, 252); 
+}
+#sign:hover{
+cursor: pointer;
+}
+
+.bottom{
+    
+    margin-left: 200px;
+    text-align: center;
+    color: gray;
+    position: absolute;
+    bottom: 0;
+}
+.nb{
+    margin-top: 10px;
+    border: 0;
+}
